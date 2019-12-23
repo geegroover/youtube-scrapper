@@ -1,0 +1,10 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser:
+            url: /bp-youtube
+        # - \Helper\Acceptance
+    # config:
+    # WebDriver:
+    #     url: 'http://localhost/bp-youtube'
+    #     browser: 'firefox'
