@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('content');
+// });
+
+Route::get('/', 'ScrapController@index');
+
+Route::get('/importChannel', 'ScrapController@importChannel');
+
+Route::get('/countVideoRating', 'ScrapController@countVideoRating');
